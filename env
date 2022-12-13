@@ -2,7 +2,7 @@
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
 	first=1
-	echo "skipping downloading"
+	echo "Skipping download..."
 fi
 tarball="ubuntu-rootfs.tar.xz"
 if [ "$first" != 1 ];then
